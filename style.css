@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    padding: 0;
+    margin: 0;
+     
+}
+
+.page_actions_container{
+    height: 3rem;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+
+}
+.page_action{
+    margin:1rem;
+    width: 3rem;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.cellproperty_actions_container{
+    height: 3rem;
+    background-color:lightblue;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+.material-icons{
+    color: black;
+    cursor: pointer;
+}
+.font_family_property{
+    border: none;
+    outline: none;
+    padding: 0.2rem;
+    border-radius: 2px;
+}
+.font_size_property{
+    border: none;
+    outline: none;
+    padding:0.2rem;
+    border-radius: 2px;
+}
+.farmula_actions_container{
+    height: 3rem;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+
+}
+.cell_address_input{
+    width: 4rem;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+}
+.fx{
+    width: 2rem;
+     display: flex;
+     justify-content: center;
+}
+.farmula_calculation_input{
+    width: calc(100vw - 6rem);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+}
+.grid_container{
+    height: calc(100vh - 12rem);
+    
+}
+.sheet_container{
+    height: 3rem;
+    background-color: lightblue;
+    display: flex;
+    align-items:center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.sheet_add_icon_container{
+ width: 2rem;
+ 
+ height: 80%;
+ display: flex;
+ align-items: center;
+ padding:0.2rem; 
+}
+.sheet_folder_container{
+    width: calc(100vw - 2rem);  
+    height: 80%;
+    display:flex;
+    align-items:center;
+
+}
+.sheets{
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+    font-weight: 600;
+}

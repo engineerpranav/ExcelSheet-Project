@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="page_actions_container">
+
+        <div class="page_action">Home</div>
+        <div class="page_action">File</div>
+        <div class="page_action">Layout</div>
+        <div class="page_action">Help</div>
+
+
+    </div>
+    <div class="cellproperty_actions_container">
+        <span class="material-icons">
+            content_copy
+        </span>
+        <span class="material-icons">
+            content_cut
+        </span>
+
+        <span class="material-icons">
+            content_paste
+         </span>
+
+         <select  class="font_family_property">
+            <option value="monospace">Monospace</option>
+            <option value="sans-serif">Sans-Serif</option>
+
+         </select>
+         <select  class="font_size_property">
+            <option value="10">10</option>
+            <option value="20">20</option>
+
+         </select>
+
+        <span class="material-icons">
+            format_bold
+        </span>
+        <span class="material-icons">
+            format_italic
+        </span>
+
+        <span class="material-icons">
+            format_underlined
+        </span>
+
+        <span class="material-icons">
+            format_align_left
+        </span>
+        <span class="material-icons">
+            format_align_center
+        </span>
+        <span class="material-icons">
+            format_align_right
+        </span>
+    </div>  
+    <div class="farmula_actions_container">
+
+        <input type="text" value="D20" readonly class="cell_address_input" />
+        <p class="fx">fx</p>
+        <input type="text" class="farmula_calculation_input" />
+
+    </div>
+    <div class="grid_container"></div>
+    <div class="sheet_container">
+
+        <div class="sheet_add_icon_container">
+            <span class="material-icons">
+                post_add
+                </span>
+        </div>
+
+        <div class="sheet_folder_container">
+          
+          <div class="sheets">Sheet1</div>
+
+        </div>
+
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
